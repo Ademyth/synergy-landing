@@ -54,8 +54,7 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
           className={styles.directingArrowUpConceptIllIcon}
           loading="lazy"
           alt=""
-          // src="/directingarrowupconceptillustration-1@2x.png"
-          src="/financialcrisisbusinessfailureflatconceptwithfallingpersonimagescoinsbanknotesarrowsdownvectorillustration-1@2x.png"
+          src="/directing-arrow-up-concept-illustration.png"
         />
       </div>
       <div className={styles.categoryGrid1}>
@@ -92,8 +91,7 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
           className={styles.illustrationMeditation1Icon}
           loading="lazy"
           alt=""
-          // src="/illustrationmeditation-1@2x.png"
-          src="/financialcrisisbusinessfailureflatconceptwithfallingpersonimagescoinsbanknotesarrowsdownvectorillustration-1@2x.png"
+          src="/illustration-meditation.png"
         />
       </div>
       <CategoryGrid
@@ -108,8 +106,7 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
           className={styles.networkConceptIllustration1Icon}
           loading="lazy"
           alt=""
-          // src="/networkconceptillustration-1@2x.png"
-          src="/financialcrisisbusinessfailureflatconceptwithfallingpersonimagescoinsbanknotesarrowsdownvectorillustration-1@2x.png"
+          src="/network-concept-illustration.png"
         />
       </div>
       <CategoryGrid
