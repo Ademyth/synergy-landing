@@ -1,0 +1,242 @@
+.synergyBookClub2 {
+  height: 44px;
+  width: 107px;
+  position: relative;
+  object-fit: cover;
+}
+.home {
+  color: var(--primary-blue-100);
+  min-width: 49px;
+}
+.challenges,
+.community,
+.home,
+.solution {
+  position: relative;
+  line-height: 180%;
+  display: inline-block;
+  cursor: pointer;
+}
+.challenges {
+  flex: 1;
+  min-width: 89px;
+}
+.community,
+.solution {
+  min-width: 66px;
+}
+.community {
+  flex: 1;
+  min-width: 93px;
+}
+.challengeItem1,
+.homeChallenge {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.homeChallenge {
+  margin: 0;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-18xl);
+  text-align: center;
+  font-size: var(--body-l-size);
+  color: var(--blue-gray-900);
+  font-family: var(--body-xs);
+}
+.challengeItem1 {
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-66xl);
+}
+.iconJamIconsOutlineL {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.login {
+  position: relative;
+  font-size: var(--body-l-size);
+  line-height: 180%;
+  font-family: var(--body-xs);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 45px;
+}
+.textContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+}
+.iconJamIconsOutlineL1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-5xs);
+  background-color: transparent;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.iconJamIconsOutlineL2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.getStarted {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 98px;
+  white-space: nowrap;
+}
+.textContainer1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-4xl);
+}
+.iconJamIconsOutlineL3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.button1 {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-blue-100);
+  border: 2px solid var(--primary-blue-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-3xl);
+}
+.iconJamIconsOutlineL4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 24px;
+}
+.buttonText {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.textContainer2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+}
+.iconJamIconsOutlineL5 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.button2 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  border: 2px solid var(--blue-600);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-3xs);
+  font-size: var(--body-m-size);
+  color: var(--blue-600);
+}
+.auth,
+.buttonsGroup,
+.challengeItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttonsGroup {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.auth,
+.challengeItem {
+  width: 298px;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.challengeItem {
+  width: 1271px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--body-l-size);
+  color: var(--default-white);
+  font-family: var(--body-xs);
+}
+@media screen and (max-width: 1125px) {
+  .homeChallenge {
+    display: none;
+  }
+  .challengeItem1 {
+    width: 192px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .challengeItem1 {
+    gap: var(--gap-23xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .homeChallenge {
+    gap: var(--gap-lg);
+  }
+  .challengeItem1 {
+    gap: var(--gap-2xl);
+  }
+}
+
+

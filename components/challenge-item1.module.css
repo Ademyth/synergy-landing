@@ -1,0 +1,30 @@
+.challengeItem,
+.challengeItemChild {
+  background-color: var(--default-white);
+  overflow: hidden;
+}
+.challengeItemChild {
+  height: 66px;
+  width: 153px;
+  position: relative;
+  flex-shrink: 0;
+  display: none;
+}
+.challengeItem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-6xs) var(--padding-xl) var(--padding-xs)
+    var(--padding-14xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-l-size);
+  color: var(--default-white);
+  font-family: var(--body-xs);
+}

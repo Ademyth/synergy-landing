@@ -1,0 +1,59 @@
+.frameParent {
+  width: 1281px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-62xl);
+  max-width: 100%;
+}
+.financeInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 25px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.finance,
+.financeChild {
+  position: relative;
+  background-color: var(--default-white);
+  overflow: hidden;
+}
+.financeChild {
+  width: 153px;
+  height: 66px;
+  flex-shrink: 0;
+  display: none;
+}
+.finance {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  gap: 133px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 725px) {
+  .frameParent {
+    gap: var(--gap-21xl);
+  }
+  .finance {
+    gap: 66px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    gap: var(--gap-xl);
+  }
+  .finance {
+    gap: 33px;
+  }
+}

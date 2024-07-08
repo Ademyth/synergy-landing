@@ -1,0 +1,97 @@
+.disclaimer1 {
+  height: 17px;
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+  max-width: 100%;
+}
+.disclaimer,
+.footer {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-29xl) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footer {
+  height: 457px;
+  background-color: var(--blue-gray-100);
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 var(--padding-61xl);
+}
+.iconJamIconsOutlineL,
+.iconJamIconsOutlineL1,
+.iconJamIconsOutlineL2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.buttonText {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.textContainer {
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.iconJamIconsOutlineL3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button2 {
+  width: 168px;
+  border-radius: var(--br-5xs);
+  border: 2px solid var(--blue-600);
+  box-sizing: border-box;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-3xs);
+  font-size: var(--body-m-size);
+  color: var(--blue-600);
+}
+.iconTablerIconsPlaneDe,
+.root {
+  position: relative;
+  overflow: hidden;
+}
+.iconTablerIconsPlaneDe {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  display: none;
+}
+.root {
+  width: 100%;
+  background-color: var(--blue-gray-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--body-xs-size);
+  color: var(--blue-gray-200);
+  font-family: var(--body-xs);
+}

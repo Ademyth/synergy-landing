@@ -1,0 +1,148 @@
+.peopleOfficeWorkDay11 {
+  width: 556px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.collaborateWithTea,
+.paragraph {
+  align-self: stretch;
+  position: relative;
+}
+.collaborateWithTea {
+  margin: 0;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.paragraph {
+  font-size: var(--caption-m-size);
+  line-height: 180%;
+}
+.collaborateWithTeaParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  gap: var(--gap-5xl);
+}
+.signUpFor {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  cursor: pointer;
+}
+.textContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-9xs);
+}
+.iconIconoirArrowRight {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.signup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--text-size);
+  color: var(--primary-blue-100);
+}
+.collaborationContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xl) 0 var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  min-width: 406px;
+  max-width: 100%;
+}
+.collaboration,
+.collaborationImage {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.collaborationImage {
+  width: 1251px;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-50xl);
+}
+.collaboration {
+  align-self: stretch;
+  background-color: var(--default-white);
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-98xl) var(--padding-xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--heading-40-size);
+  color: var(--state-text-colour-active);
+  font-family: var(--body-xs);
+}
+@media screen and (max-width: 1125px) {
+  .peopleOfficeWorkDay11 {
+    flex: 1;
+  }
+  .collaborationImage {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .collaborateWithTea {
+    font-size: var(--font-size-13xl);
+    line-height: 35px;
+  }
+  .collaborationContent {
+    gap: var(--gap-xl);
+    min-width: 100%;
+  }
+  .collaborationImage {
+    gap: var(--gap-15xl);
+  }
+  .collaboration {
+    padding-top: var(--padding-57xl);
+    padding-bottom: var(--padding-57xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .collaborateWithTea {
+    font-size: var(--text-size);
+    line-height: 26px;
+  }
+  .paragraph {
+    font-size: var(--body-m-size);
+    line-height: 29px;
+  }
+  .signUpFor {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+  .collaborationImage {
+    gap: var(--gap-mid);
+  }
+  .collaboration {
+    padding-top: var(--padding-30xl);
+    padding-bottom: var(--padding-30xl);
+    box-sizing: border-box;
+  }
+}
