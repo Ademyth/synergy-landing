@@ -5,7 +5,7 @@
   object-fit: cover;
 }
 .home {
-  color: var(--primary-blue-100);
+  /* color: var(--primary-blue-100); */
   min-width: 49px;
 }
 .challenges,
