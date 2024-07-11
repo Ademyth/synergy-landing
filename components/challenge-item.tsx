@@ -26,12 +26,6 @@ export type ChallengeItemType = {
 
 const ChallengeItem: NextPage<ChallengeItemType> = ({
   className = "",
-  iconJamIconsOutlineLogos,
-  iconJamIconsOutlineLogos1,
-  iconJamIconsOutlineLogos2,
-  iconJamIconsOutlineLogos3,
-  iconJamIconsOutlineLogos4,
-  iconJamIconsOutlineLogos5,
   buttonsGroupWidth,
   buttonsGroupAlignSelf,
   buttonsGroupFlex,
@@ -109,50 +103,15 @@ const ChallengeItem: NextPage<ChallengeItemType> = ({
       </div>
       <div className={styles.auth}>
         <button className={styles.button}>
-          <img
-            className={styles.iconJamIconsOutlineL}
-            alt=""
-            src={iconJamIconsOutlineLogos}
-          />
           <div className={styles.textContainer}>
             <div className={styles.login}>Login</div>
           </div>
-          <img
-            className={styles.iconJamIconsOutlineL1}
-            alt=""
-            src={iconJamIconsOutlineLogos1}
-          />
         </button>
         <div className={styles.buttonsGroup}>
           <div className={styles.button1}>
-            <img
-              className={styles.iconJamIconsOutlineL2}
-              alt=""
-              src={iconJamIconsOutlineLogos2}
-            />
             <div className={styles.textContainer1}>
               <a className={styles.getStarted}>Get Started</a>
             </div>
-            <img
-              className={styles.iconJamIconsOutlineL3}
-              alt=""
-              src={iconJamIconsOutlineLogos3}
-            />
-          </div>
-          <div className={styles.button2}>
-            <img
-              className={styles.iconJamIconsOutlineL4}
-              alt=""
-              src={iconJamIconsOutlineLogos4}
-            />
-            <div className={styles.textContainer2}>
-              <div className={styles.buttonText}>Button Text</div>
-            </div>
-            <img
-              className={styles.iconJamIconsOutlineL5}
-              alt=""
-              src={iconJamIconsOutlineLogos5}
-            />
           </div>
         </div>
       </div>

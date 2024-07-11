@@ -51,34 +51,9 @@ const Content1: NextPage<Content1Type> = ({ className = "" }) => {
             </div>
             <button className={styles.buttonsGroup}>
               <div className={styles.button}>
-                <img
-                  className={styles.iconJamIconsOutlineL}
-                  alt=""
-                  src="/icon--jamicons--outline--logos--plus4.svg"
-                />
                 <div className={styles.textContainer}>
                   <div className={styles.signUp}>Sign up</div>
                 </div>
-                <img
-                  className={styles.iconJamIconsOutlineL1}
-                  alt=""
-                  src="/icon--jamicons--outline--logos--arrowright.svg"
-                />
-              </div>
-              <div className={styles.button2}>
-                <img
-                  className={styles.iconJamIconsOutlineL2}
-                  alt=""
-                  src="/icon--jamicons--outline--logos--plus1.svg"
-                />
-                <div className={styles.textContainer1}>
-                  <div className={styles.buttonText}>Button Text</div>
-                </div>
-                <img
-                  className={styles.iconJamIconsOutlineL3}
-                  alt=""
-                  src="/icon--jamicons--outline--logos--arrowright1.svg"
-                />
               </div>
             </button>
           </div>

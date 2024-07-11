@@ -75,11 +75,6 @@ const FrameComponent4: NextPage<FrameComponent4Type> = ({ className = "" }) => {
                 onClick={onButtonsGroupClick}
               >
                 <div className={styles.button}>
-                  <img
-                    className={styles.iconJamIconsOutlineL}
-                    alt=""
-                    src="/icon--jamicons--outline--logos--plus4.svg"
-                  />
                   <div className={styles.textContainer}>
                     <a className={styles.learnMore}>Learn more</a>
                   </div>
@@ -87,21 +82,6 @@ const FrameComponent4: NextPage<FrameComponent4Type> = ({ className = "" }) => {
                     className={styles.iconJamIconsOutlineL1}
                     alt=""
                     src="/icon--jamicons--outline--logos--arrowright.svg"
-                  />
-                </div>
-                <div className={styles.button2}>
-                  <img
-                    className={styles.iconJamIconsOutlineL2}
-                    alt=""
-                    src="/icon--jamicons--outline--logos--plus1.svg"
-                  />
-                  <div className={styles.textContainer1}>
-                    <div className={styles.buttonText}>Button Text</div>
-                  </div>
-                  <img
-                    className={styles.iconJamIconsOutlineL3}
-                    alt=""
-                    src="/icon--jamicons--outline--logos--arrowright1.svg"
                   />
                 </div>
               </button>

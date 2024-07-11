@@ -17,12 +17,6 @@ const HealthyLifestyle: NextPage = () => {
       <main className={styles.healthyLifestyleInner}>
         <section className={styles.frameParent}>
           <ChallengeItem
-            iconJamIconsOutlineLogos="/icon--jamicons--outline--logos--playcircle1.svg"
-            iconJamIconsOutlineLogos1="/icon--jamicons--outline--logos--arrowright4.svg"
-            iconJamIconsOutlineLogos2="/icon--jamicons--outline--logos--plus4.svg"
-            iconJamIconsOutlineLogos3="/icon--jamicons--outline--logos--arrowright.svg"
-            iconJamIconsOutlineLogos4="/icon--jamicons--outline--logos--plus1.svg"
-            iconJamIconsOutlineLogos5="/icon--jamicons--outline--logos--arrowright1.svg"
             buttonsGroupWidth="1271px"
             buttonsGroupAlignSelf="unset"
             buttonsGroupFlex="unset"
@@ -89,38 +83,6 @@ const HealthyLifestyle: NextPage = () => {
                       </p>
                     </div>
                   </div>
-                  <button className={styles.buttonsGroup}>
-                    <div className={styles.button}>
-                      <img
-                        className={styles.iconJamIconsOutlineL}
-                        alt=""
-                        src="/icon--jamicons--outline--logos--plus4.svg"
-                      />
-                      <div className={styles.textContainer}>
-                        <div className={styles.signUp}>Sign up</div>
-                      </div>
-                      <img
-                        className={styles.iconJamIconsOutlineL1}
-                        alt=""
-                        src="/icon--jamicons--outline--logos--arrowright.svg"
-                      />
-                    </div>
-                    <div className={styles.button2}>
-                      <img
-                        className={styles.iconJamIconsOutlineL2}
-                        alt=""
-                        src="/icon--jamicons--outline--logos--plus1.svg"
-                      />
-                      <div className={styles.textContainer1}>
-                        <div className={styles.buttonText}>Button Text</div>
-                      </div>
-                      <img
-                        className={styles.iconJamIconsOutlineL3}
-                        alt=""
-                        src="/icon--jamicons--outline--logos--arrowright1.svg"
-                      />
-                    </div>
-                  </button>
                 </div>
               </div>
               <img

@@ -18,12 +18,6 @@ const Finance: NextPage = () => {
       <main className={styles.financeInner}>
         <section className={styles.frameParent}>
           <ChallengeItem
-            iconJamIconsOutlineLogos="/icon--jamicons--outline--logos--playcircle1.svg"
-            iconJamIconsOutlineLogos1="/icon--jamicons--outline--logos--arrowright4.svg"
-            iconJamIconsOutlineLogos2="/icon--jamicons--outline--logos--plus4.svg"
-            iconJamIconsOutlineLogos3="/icon--jamicons--outline--logos--arrowright.svg"
-            iconJamIconsOutlineLogos4="/icon--jamicons--outline--logos--plus1.svg"
-            iconJamIconsOutlineLogos5="/icon--jamicons--outline--logos--arrowright1.svg"
             buttonsGroupWidth="unset"
             buttonsGroupAlignSelf="stretch"
             buttonsGroupFlex="unset"

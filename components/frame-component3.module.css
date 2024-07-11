@@ -35,13 +35,12 @@
   min-height: 24px;
 }
 .arrows {
-  width: 420px;
+  width: 234px;
   display: none;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
   gap: var(--gap-8xs);
-  max-width: 100%;
   z-index: 1;
 }
 .feature {
@@ -197,12 +196,13 @@
   font-weight: 500;
 }
 .textContainer {
-  align-self: stretch;
+  height: 24px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 0 var(--padding-base);
+  box-sizing: border-box;
 }
 .iconJamIconsOutlineL3 {
   height: 24px;
@@ -214,7 +214,7 @@
   min-height: 24px;
 }
 .button {
-  height: 56px;
+  width: 179px;
   border-radius: var(--br-5xs);
   border: 2px solid var(--amber-900);
   box-sizing: border-box;
@@ -222,7 +222,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-base) var(--padding-sm);
+  padding: var(--padding-smi) var(--padding-sm);
+  min-width: 116px;
   font-size: var(--caption-m-size);
 }
 .iconJamIconsOutlineL4 {
@@ -258,9 +259,10 @@
   min-height: 24px;
 }
 .button2 {
-  align-self: stretch;
+  height: 48px;
   border-radius: var(--br-5xs);
   border: 2px solid var(--blue-600);
+  box-sizing: border-box;
   display: none;
   flex-direction: row;
   align-items: center;
@@ -325,7 +327,7 @@
   z-index: 3;
   text-align: center;
   font-size: var(--body-xs-size);
-  color: var(--default-white);
+  color: var(--white);
 }
 .button3 {
   border-radius: var(--br-5xs);
@@ -339,13 +341,14 @@
   max-width: 100%;
 }
 .buttonsGroup {
-  width: 528px;
-  height: 48px;
+  width: 387px;
   display: none;
   flex-direction: row;
   align-items: center;
+  padding: 0 var(--padding-5xl) 0 0;
+  box-sizing: border-box;
   gap: var(--gap-base);
-  font-size: var(--body-m-size);
+  font-size: var(--button-m-size);
   color: var(--amber-900);
 }
 .sectionText {
@@ -385,7 +388,7 @@
   gap: var(--gap-5xs);
   cursor: pointer;
   font-size: var(--text-size);
-  color: var(--primary-blue-100);
+  color: var(--orange-600);
 }
 .sectionTextParent,
 .testimonialContent {
@@ -419,14 +422,14 @@
   align-self: stretch;
   height: 608px;
   position: relative;
-  background-color: var(--default-white);
+  background-color: var(--white);
   overflow: hidden;
   flex-shrink: 0;
   max-width: 100%;
   text-align: left;
   font-size: var(--body-xs-size);
   color: var(--blue-gray-400);
-  font-family: var(--body-xs);
+  font-family: var(--button-m);
 }
 @media screen and (max-width: 1325px) {
   .sectionTextParent,
@@ -464,7 +467,7 @@
 }
 @media screen and (max-width: 450px) {
   .caption {
-    font-size: var(--body-m-size);
+    font-size: var(--button-m-size);
     line-height: 16px;
   }
   .mainHeadline {
@@ -475,12 +478,15 @@
     font-size: var(--text-size);
     line-height: 26px;
   }
-  .buttonText,
-  .learnMore {
-    font-size: var(--body-m-size);
+  .buttonText {
+    font-size: var(--button-m-size);
     line-height: 19px;
+  }
+  .buttonsGroup {
+    flex-wrap: wrap;
   }
   .learnMore {
     font-size: var(--font-size-lgi);
+    line-height: 19px;
   }
 }

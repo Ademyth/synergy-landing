@@ -15,41 +15,6 @@ import styles from "./index.module.css";
 const Root: NextPage = () => {
   return (
     <div className={styles.root}>
-      <div className={styles.footer}>
-        <div className={styles.disclaimer}>
-          <div className={styles.disclaimer1}>Disclaimer</div>
-        </div>
-      </div>
-      <img
-        className={styles.iconJamIconsOutlineL}
-        alt=""
-        src="/icon--jamicons--outline--logos--plus.svg"
-      />
-      <img
-        className={styles.iconJamIconsOutlineL1}
-        alt=""
-        src="/icon--jamicons--outline--logos--arrowright.svg"
-      />
-      <div className={styles.button2}>
-        <img
-          className={styles.iconJamIconsOutlineL2}
-          alt=""
-          src="/icon--jamicons--outline--logos--plus1.svg"
-        />
-        <div className={styles.textContainer}>
-          <div className={styles.buttonText}>Button Text</div>
-        </div>
-        <img
-          className={styles.iconJamIconsOutlineL3}
-          alt=""
-          src="/icon--jamicons--outline--logos--arrowright1.svg"
-        />
-      </div>
-      <img
-        className={styles.iconTablerIconsPlaneDe}
-        alt=""
-        src="/icon--tablericons--planedeparture.svg"
-      />
       <ChallengeItem1 />
       <Hero />
       <FrameComponent />

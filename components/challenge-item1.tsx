@@ -42,12 +42,6 @@ const ChallengeItem1: NextPage<ChallengeItem1Type> = ({ className = "" }) => {
     <header className={[styles.challengeItem, className].join(" ")}>
       <div className={styles.challengeItemChild} />
       <ChallengeItem
-        iconJamIconsOutlineLogos="pending_234:974"
-        iconJamIconsOutlineLogos1="pending_234:977"
-        iconJamIconsOutlineLogos2="pending_234:980"
-        iconJamIconsOutlineLogos3="/icon--jamicons--outline--logos--arrowright.svg"
-        iconJamIconsOutlineLogos4="/icon--jamicons--outline--logos--plus1.svg"
-        iconJamIconsOutlineLogos5="/icon--jamicons--outline--logos--arrowright1.svg"
         onHomeTextClick={onHomeTextClick}
         onChallengesTextClick={onChallengesTextClick}
         onSolutionTextClick={onSolutionTextClick}
