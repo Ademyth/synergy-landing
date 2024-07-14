@@ -24,12 +24,14 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
           src="/image@2x.png"
         />
       </div>
+
       <div className={styles.imageContent}>
         <div className={styles.imageParagraphParent}>
           <div className={styles.imageParagraph}>
             <h1 className={styles.secondaryHeadline}>
-              Fuel your mind with synergy community
+              Synergy Community is a Vibrant Hub Where You - Fuel your mind
             </h1>
+
             <div className={styles.paragraph}>
               Whether you're into personal development or financial literacy,
               our community has something for every book lover. Dive into our
@@ -37,13 +39,18 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
               entertain.
             </div>
           </div>
-          <button className={styles.buttonsGroup} onClick={onButtonsGroupClick}>
+
+          <button type="button" className={styles.button} onClick={onButtonsGroupClick}>
+            Learn more
+          </button>
+
+          {/* <button className={styles.buttonsGroup} onClick={onButtonsGroupClick}>
             <div className={styles.button}>
               <div className={styles.textContainer}>
                 <a className={styles.learnMore}>Learn more</a>
               </div>
             </div>
-          </button>
+          </button> */}
         </div>
       </div>
     </section>

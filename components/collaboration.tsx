@@ -78,6 +78,7 @@ const Collaboration: NextPage<CollaborationType> = ({ className = "" }) => {
           alt=""
           src="/peopleofficeworkday-1-1@2x.png"
         />
+
         <div className={styles.collaborationContent}>
           <div className={styles.collaborateWithTeaParent}>
             <h1 className={styles.collaborateWithTea}>

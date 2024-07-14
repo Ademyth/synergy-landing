@@ -90,10 +90,11 @@
   align-self: stretch;
   border-radius: var(--br-11xl);
   gap: var(--gap-13xl);
-  width: 90%;
 }
 .col {
-  flex: 0.8;
+  width: 558px;
+  min-width: 558px;
+  max-width: 100%;
 }
 .graphPartGraphStyle {
   align-self: stretch;
@@ -117,12 +118,10 @@
   max-width: 100%;
 }
 .graphContent {
-  /* width: 1374px; */
+  width: 1374px;
   flex-direction: row;
   align-items: center;
   gap: var(--gap-10xl);
-  justify-content: space-between;
-  width: 100%;
   max-width: 101%;
   flex-shrink: 0;
 }
@@ -142,7 +141,6 @@
   color: var(--purple-400);
   font-family: var(--body-xs);
 }
-
 @media screen and (max-width: 1325px) {
   .col {
     flex: 1;
@@ -151,7 +149,6 @@
     flex-wrap: wrap;
   }
 }
-
 @media screen and (max-width: 800px) {
   .mainHeadline {
     font-size: var(--font-size-39xl);
@@ -167,14 +164,13 @@
   .col {
     gap: var(--gap-5xl);
   }
-  .graphContentWrapper {
-    padding-left: 0;
-    padding-right: 0;
-
-    box-sizing: border-box;
+  .col,
+  .col1 {
+    min-width: 100%;
   }
-  .col {
+  .graphContentWrapper {
     padding-left: var(--padding-21xl);
+    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {

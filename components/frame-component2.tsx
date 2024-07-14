@@ -46,6 +46,7 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({ className = "" }) => {
             </div>
           </div>
         </div>
+
         <div className={styles.col1}>
           <img
             className={styles.graphPartGraphStyle}
