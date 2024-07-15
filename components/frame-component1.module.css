@@ -1,238 +1,92 @@
-.imageIcon {
-  height: 100%;
+.wrapperImageParent {
+  display: flex;
+  flex-direction: column-reverse;
   width: 100%;
-  object-fit: contain;
-  position: absolute;
-  left: 0;
-  top: 43px;
-  transform: scale(1.269);
 }
+
 .wrapperImage {
-  height: 495px;
-  width: 475px;
-  position: relative;
-  min-height: 495px;
-  max-width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  flex: 0.9;
+  height: 100%;
+  margin-top: 20px;
 }
-.paragraph,
-.secondaryHeadline {
-  width: 623px;
-  position: relative;
-  display: inline-block;
-  max-width: 100%;
+
+.imageIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
-.secondaryHeadline {
-  margin: 0;
-  font-size: inherit;
-  line-height: 110%;
-  font-weight: 700;
-  font-family: inherit;
-}
-.paragraph {
-  font-size: var(--caption-m-size);
-  line-height: 180%;
-}
-.imageParagraph {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-xl) 0 0;
-  box-sizing: border-box;
-  gap: var(--gap-5xl);
-  max-width: 100%;
-}
-.iconJamIconsOutlineL {
-  height: 24px;
-  width: 24px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: none;
-  min-height: 24px;
-}
-.learnMore {
-  text-decoration: none;
-  position: relative;
-  font-size: var(--body-l-size);
-  letter-spacing: 0.5px;
-  line-height: 24px;
-  font-weight: 500;
-  font-family: var(--body-xs);
-  color: var(--default-white);
-  text-align: left;
-  display: inline-block;
-  min-width: 97px;
-  white-space: nowrap;
-}
-.textContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 0 var(--padding-5xl);
-}
-.iconJamIconsOutlineL1 {
-  height: 24px;
-  width: 24px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: none;
-  min-height: 24px;
-}
-.button {
-  flex: 1;
-  border-radius: var(--br-9xs);
-  background-color: var(--primary-blue-100);
-  border: 2px solid var(--primary-blue-100);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-4xs) var(--padding-3xl);
-}
-.iconJamIconsOutlineL2 {
-  height: 24px;
-  width: 24px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: none;
-  min-height: 24px;
-}
-.buttonText {
-  align-self: stretch;
-  position: relative;
-  font-size: var(--body-m-size);
-  letter-spacing: 0.5px;
-  line-height: 24px;
-  font-weight: 500;
-  font-family: var(--body-xs);
-  color: var(--blue-600);
-  text-align: left;
-}
-.textContainer1 {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 0 var(--padding-base);
-}
-.iconJamIconsOutlineL3 {
-  height: 24px;
-  width: 24px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-  min-height: 24px;
-}
-.button2,
-.buttonsGroup {
-  flex-direction: row;
-  align-items: center;
-}
-.button2 {
-  align-self: stretch;
-  border-radius: var(--br-5xs);
-  border: 2px solid var(--blue-600);
-  display: none;
-  justify-content: center;
-  padding: var(--padding-xs) var(--padding-3xs);
-}
-.buttonsGroup {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  width: 193px;
-  display: flex;
-  justify-content: flex-start;
-  gap: var(--gap-13xl);
-}
-.imageParagraphParent {
-  width: 673px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: var(--gap-21xl);
-  max-width: 100%;
-  z-index: 1;
-}
-.imageContent,
-.wrapperImageParent {
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  box-sizing: border-box;
-  max-width: 100%;
-}
+
 .imageContent {
+  display: flex;
   flex: 1;
-  border-radius: var(--br-3xs) 0 0 var(--br-3xs);
+  border-radius: 0;
   background-color: var(--blue-gray-900);
-  justify-content: flex-end;
-  padding: var(--padding-67xl) var(--padding-27xl) var(--padding-49xl);
-  min-width: 509px;
+  padding: 16px 16px;
 }
-.wrapperImageParent {
-  align-self: stretch;
-  background-color: var(--default-white);
-  justify-content: center;
-  padding: 0 var(--padding-11xs) var(--padding-123xl) var(--padding-87xl);
-  gap: var(--gap-58xl);
-  text-align: left;
-  font-size: var(--heading-40-size);
-  color: var(--default-white);
+
+.imageParagraphParent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 16px;
+}
+
+.secondaryHeadline {
+  font-size: var(--text-size);
+}
+
+.paragraph {
+  font-size: var(--body-m-size);
+  line-height: 29px;
+}
+
+.button {
+  align-self: flex-start;
   font-family: var(--body-xs);
+  font-size: 0.9rem;
+  /* line-height: 24px; */
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: var(--default-white);
+  white-space: nowrap;
+  background-color: var(--primary-blue-100);
+  outline: none;
+  border: none;
+  border-radius: var(--br-9xs);
+  padding: 10px 20px;
 }
-@media screen and (max-width: 1325px) {
-  .imageIcon {
-    flex: 1;
-  }
+
+.imageParagraph {
+  padding-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
   .wrapperImageParent {
-    flex-wrap: wrap;
+    height: 350px;
+    flex-direction: row;
   }
-}
-@media screen and (max-width: 800px) {
+
+  .imageContent {
+    flex: 1;
+    border-radius: var(--br-3xs) 0 0 var(--br-3xs);
+  }
+
+  .imageParagraphParent {
+    padding-left: 20px;
+    align-self: center;
+  }
+
   .secondaryHeadline {
     font-size: var(--font-size-13xl);
-    line-height: 35px;
-  }
-  .imageParagraphParent {
-    gap: var(--gap-xl);
-  }
-  .imageContent {
-    padding: var(--padding-37xl) var(--padding-4xl) var(--padding-25xl);
-    box-sizing: border-box;
-    min-width: 100%;
-  }
-  .wrapperImageParent {
-    gap: var(--gap-19xl);
-    padding-left: var(--padding-34xl);
-    padding-bottom: var(--padding-73xl);
-    box-sizing: border-box;
   }
 }
-@media screen and (max-width: 450px) {
-  .secondaryHeadline {
-    font-size: var(--text-size);
-    line-height: 26px;
-  }
-  .paragraph {
-    font-size: var(--body-m-size);
-    line-height: 29px;
-  }
+
+@media screen and (min-width: 1280px) {
   .wrapperImageParent {
-    gap: var(--gap-lgi);
-    padding-left: var(--padding-xl);
-    box-sizing: border-box;
+    height: 550px;
+  }
+
+  .imageParagraphParent {
+    width: 70%;
   }
 }
