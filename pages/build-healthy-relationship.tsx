@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
 import { useRouter } from "next/router";
-import ChallengeItem from "../components/challenge-item";
-import Footer from "../components/footer";
+import ChallengeItem from "../components/navbar/challenge-item";
+import Footer from "../components/footer/footer";
 import styles from "./build-healthy-relationship.module.css";
 
 const BuildHealthyRelationship: NextPage = () => {

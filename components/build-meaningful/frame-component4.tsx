@@ -50,7 +50,6 @@ const FrameComponent4: NextPage<FrameComponent4Type> = ({ className = "" }) => {
             <div className={styles.userTestimonialContent}>
               <div className={styles.topParent}>
                 <div className={styles.top}>
-                  <b className={styles.caption}>Caption</b>
                   <div className={styles.mainHeadline}>
                     <p className={styles.technologyDesignTools}>
                       Technology design tools
@@ -78,11 +77,6 @@ const FrameComponent4: NextPage<FrameComponent4Type> = ({ className = "" }) => {
                   <div className={styles.textContainer}>
                     <a className={styles.learnMore}>Learn more</a>
                   </div>
-                  <img
-                    className={styles.iconJamIconsOutlineL1}
-                    alt=""
-                    src="/icon--jamicons--outline--logos--arrowright.svg"
-                  />
                 </div>
               </button>
             </div>

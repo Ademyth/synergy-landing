@@ -1,6 +1,5 @@
 
 import type { NextPage } from "next";
-import CategoryGrid from "./category-grid";
 import styles from "./frame-component.module.css";
 
 export type FrameComponentType = {

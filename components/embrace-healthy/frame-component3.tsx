@@ -20,23 +20,6 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
       <div className={styles.testimonialContent}>
         <div className={styles.testimonialTop}>
           <div className={styles.topBar}>
-            <div className={styles.circles}>
-              <img
-                className={styles.iconJamIconsFilledCi}
-                alt=""
-                src="/icon--jamicons--filled--circlef.svg"
-              />
-              <img
-                className={styles.iconJamIconsFilledCi1}
-                alt=""
-                src="/icon--jamicons--filled--circlef-1.svg"
-              />
-              <img
-                className={styles.iconJamIconsFilledCi2}
-                alt=""
-                src="/icon--jamicons--filled--circlef-2.svg"
-              />
-            </div>
           </div>
           <div className={styles.wrapperPicture}>
             <img className={styles.pictureIcon} alt="" src="/picture@2x.png" />

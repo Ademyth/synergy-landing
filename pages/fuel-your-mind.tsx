@@ -1,14 +1,33 @@
 import type { NextPage } from "next";
-import FrameComponent5 from "../components/frame-component5";
-import Footer from "../components/footer";
+import { useCallback } from "react";
+import router, { useRouter } from "next/router";
+import ChallengeItem from "../components/navbar/challenge-item";
+import Footer from "../components/footer/footer";
 import styles from "./fuel-your-mind.module.css";
 
+
 const FuelYourMind: NextPage = () => {
+  const router = useRouter();
+
+  const onSynergyBookClubClick = useCallback(() => {
+    router.push("/");
+  }, [router]);
+
+
   return (
     <div className={styles.fuelYourMind}>
       <main className={styles.fuelYourMindInner}>
         <section className={styles.frameParent}>
-          <FrameComponent5 />
+        <ChallengeItem
+            buttonsGroupWidth="unset"
+            buttonsGroupAlignSelf="stretch"
+            buttonsGroupFlex="unset"
+            onSynergyBookClubClick={onSynergyBookClubClick}
+            onHomeTextClick={onSynergyBookClubClick}
+            onChallengesTextClick={onSynergyBookClubClick}
+            onSolutionTextClick={onSynergyBookClubClick}
+            onCommunityTextClick={onSynergyBookClubClick}
+          />
           <div className={styles.contentParent}>
             <div className={styles.content}>
               <div className={styles.secondaryHeadlineParent}>

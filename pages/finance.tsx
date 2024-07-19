@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
 import { useRouter } from "next/router";
-import ChallengeItem from "../components/challenge-item";
-import Content1 from "../components/content1";
-import Footer from "../components/footer";
+import ChallengeItem from "../components/navbar/challenge-item";
+import Content1 from "../components/financial-stability/content1";
+import Footer from "../components/footer/footer";
 import styles from "./finance.module.css";
 
 const Finance: NextPage = () => {

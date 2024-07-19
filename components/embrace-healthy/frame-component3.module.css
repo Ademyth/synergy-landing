@@ -5,16 +5,6 @@
   width: 1440px;
   height: 684px;
 }
-.iconJamIconsFilledCi,
-.iconJamIconsFilledCi1,
-.iconJamIconsFilledCi2 {
-  height: 10px;
-  width: 10px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-  min-height: 10px;
-}
 .circles {
   display: flex;
   flex-direction: row;
@@ -24,15 +14,6 @@
   box-sizing: border-box;
   gap: var(--gap-8xs);
   max-width: 100%;
-}
-.iconJamIconsOutlineL,
-.iconJamIconsOutlineL1 {
-  height: 24px;
-  width: 24px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-  min-height: 24px;
 }
 .arrows {
   width: 234px;
